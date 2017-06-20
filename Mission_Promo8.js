@@ -7,6 +7,14 @@ var rerere = /rue/gi;
 var rererere = /quai/gi;
 var toBeContinued = suite.replace(rerere, "raie").replace(rererere, "cul");
 
+var relou = /cool/gi;
+var rerelou = /salut,/gi;
+var chapTrois = "Votre histoire est cool. Allez salut, salut!";
+var newChap = chapTrois.replace(relou, "nulle");
+var suiteChap = newChap.replace(rerelou, "bye,");
+
+
 var toBeContinuedUppercase = toBeContinued.toUpperCase();
 
 console.log(toBeContinuedUppercase);
+console.log(suiteChap);
